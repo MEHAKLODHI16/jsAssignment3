@@ -13,11 +13,11 @@ userNumber = Number(userNumber);
 let message;
 
 if (userNumber > dynamicNumber) {
-  message = `Your number (${userNumber}) is greater than ${dynamicNumber}.`;
+  message = `Your number (${userNumber}) is greater than dynamic number ${dynamicNumber}.`;
 } else if (userNumber === dynamicNumber) {
-  message = `Your number (${userNumber}) is equal to ${dynamicNumber}.`;
+  message = `Your number (${userNumber}) is equal to dynamic number ${dynamicNumber}.`;
 } else {
-  message = `Your number (${userNumber}) is less than ${dynamicNumber}.`;
+  message = `Your number (${userNumber}) is less than dynamic number ${dynamicNumber}.`;
 }
 
 // Output the result to the user
